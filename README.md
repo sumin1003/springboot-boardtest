@@ -5,7 +5,7 @@ CRUD를 기본으로 검색, 페이징, 입력값 검증, 전역 예외 처리�
 
 ## 기술 스택
 
-- Java 17, Spring Boot 3.x
+- Java 17, Spring Boot 3.5.14
 - Spring Data JPA, H2 Database
 - Gradle, Lombok
 
