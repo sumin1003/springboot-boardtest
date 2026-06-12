@@ -35,7 +35,8 @@ public class PostController {
     }
 
     @GetMapping("/list")
-    public Page<PostResponseDto> postList(@RequestParam("page") int page, @RequestParam("size") int size) {
+    public Page<PostResponseDto> postList(@RequestParam(value="page", defaultValue="0") int page, 
+                                        @RequestParam(value = "size", defaultValue = "10") int size) {
         return postService.postList(page, size);
     }
 
