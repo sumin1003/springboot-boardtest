@@ -20,7 +20,6 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 /*필터가 뭐예요? 프론트에서 요청 올 때마다 → "우리 쪽 사람 맞아?" → 토큰 확인 → 맞으면 통과, 아니면 401로 돌려보냄. 끝.
-이제 그 검문소를 실제 코드로 만들면 되는데, 검문소가 할 일도 네가 이미 다 알아:
 
 요청 헤더에서 토큰 꺼내고 (substringToken)
 유효한지 확인하고 (validateToken)
